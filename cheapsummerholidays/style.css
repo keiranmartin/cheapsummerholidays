@@ -1,0 +1,210 @@
+/*
+Theme Name: Cheap Summer Holidays
+Theme URI: http://www.cheapsummerholidays.co.uk
+Author: Keiran Martin
+Author URI: http://www.webdevnorwich.co.uk
+Description: Theme for Cheap Summer Holidays
+Version: 1.0
+*/
+
+/* ---------- */
+/*    Misc    */
+/* --------- */
+
+
+html, body, h1, h2, h3, h4, h5, p, a, {
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ---------- */
+/* Home Page */
+/* --------- */
+
+/* nav */
+nav{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #2C4162 !important;
+}
+
+nav li{
+  font-family: 'Quicksand', sans-serif !important;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.hero-img{
+  height: 380px;
+  width: 100%;
+  padding: 0px;
+}
+
+nav img{
+    width: 40%;
+    padding-top: 5px;
+}
+
+
+/* Hero */
+.hero{
+  background-image: url('/wp-content/themes/cheapsummerholidays/img/hero-bg-full.jpg');
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  width: 100vw;
+  margin: 0;
+}
+
+.hero img{
+  margin-top: 100px;
+}
+
+#hero h2{
+  font-size: 20px !important;
+  margin-top: 10px;
+  color: white;
+  font-weight: 200;
+}
+
+.container-fluid{
+  padding: 0px !important;
+}
+
+#SB_86a1ab6f4e > div > img{
+  display: none !important;
+}
+
+.hcsb_poweredBy{
+  display: none !important;
+}
+
+.hcsb_oneLine{
+  padding: 50px 20px 50px 20px !important;
+  width: 100%;
+}
+
+.hcsb_topTitle{
+  display: none !important;
+}
+
+/* footer */
+footer{
+  background-color: #D8D8D8;
+}
+
+footer img{
+  width: 157px;
+  margin: 40px 0 40px 0;
+}
+
+footer p, footer a{
+  color: #0573AA;
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+/* blog */
+/* Posts Section */
+#blog{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#blog .card{
+  border-radius: 10px;
+  height: 424px;
+}
+
+#blog img{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    border-top-left-radius:  5px;
+    border-top-right-radius:  5px;
+    margin-bottom: 0px;
+}
+
+#blog article{
+    padding:0px;
+}
+
+#blog hr{
+    width: 50%;
+    color: #22538C;
+}
+
+#blog header{
+  background-color: #0573AA;
+}
+
+#blog header > h1{
+    font-size: 25px;
+    font-weight: 200;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+#blog p{
+    color: #0F2039;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+#blog .card{
+    box-shadow: 0px 0px 52px -5px rgba(0,0,0,0.75);
+    margin-bottom: 30px;
+}
+
+#blog .alert{
+    font-size: 12px;
+    padding: 4px;
+}
+
+#blog .date{
+    font-size: 14px;
+}
+
+.btn-post{
+  background-color: #FCBB02;
+  color: white;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 200;
+  font-family: 'Quicksand', sans-serif !important;
+  margin-bottom: 10px;
+}
+
+.btn-post:hover{
+  border: 1px solid #FCBB02;
+  background-color: transparent;
+  color: #FCBB02;
+  transition: all 0.8s ease;
+}
+
+/* ---------- */
+/* Blog Page */
+/* --------- */
+
+.title{
+    background-color: #0573AA;
+    position: relative;
+    top: -100px;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.text{
+    font-family: 'Quicksand', sans-serif !important;
+}
